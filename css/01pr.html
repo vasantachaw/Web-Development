@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Basic of css courses</title>
+    <style>
+        h1 {
+            color: #3E5879;
+            /*alpha value range 0-1 which is used for color density or transparent*/
+        }
+
+        .para {
+            color: currentColor;
+        }
+
+        #btn {
+            background-color: #3E5879;
+            color: black;
+        }
+
+        #btn:hover {
+            background-color: hwb(187 0% 0%);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: large;
+            font-weight: bolder;
+            font-style: italic;
+        }
+
+        .sec {
+            color: tomato;
+        }
+    </style>
+</head>
+
+<body>
+    <!--This is comment part for developers-->
+    <section class="sec">
+        <h1>This Is My Heading Tag</h1>
+        <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Quam aut animi beatae molestias
+            quos quidem magni,
+            tenetur minus at rem <br> alias eum nobis minima accusamus facere quas nisi aspernatur explicabo?</p>
+        <br>
+        <a href="#" target="_blank" id="btn"> Subscribe</a>
+    </section>
+</body>
+
+</html>
